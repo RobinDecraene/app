@@ -1,0 +1,48 @@
+header {
+  background-color: #c0d3d9;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.widthNav {
+  width: 95%;
+  margin: 0;
+}
+
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.activeNav {
+  color: #3b3934;
+  font-weight: 700;
+}
+
+nav div {
+  float: right;
+
+}
+
+colors {
+  color: #fff;
+  color: #3b3934;
+  color: #c0d3d9;
+  color: #d6e4e7;
+  color: #fee4b3;
+  color: #ffd686;
+  color: #feb544;
+  color: #d9d9d9;
+}

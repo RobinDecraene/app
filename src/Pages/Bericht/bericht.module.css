@@ -1,0 +1,66 @@
+.bericht {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.berichtdArrow{
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  }
+  
+.berichtdArrow img{
+  width: 2rem;
+  float: left;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.berichtVeld {
+  width: 85%;
+  height: 80vh;
+}
+
+.donker {
+  background-color: #fee4b3;
+  padding: 01rem;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.sendmessage {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.inputBericht {
+  border: none;
+  box-shadow: inset 1px 1px 4px 2px #d9d9d9;
+  height: 2rem;
+  border-radius: 5px;
+  width: 40%;
+}
+
+span::after {
+  content: '\a';
+  white-space: pre;
+}
+
+.primaireBtn {
+  border: solid 1px #feb544;
+  background-color: #fee4b3;
+  border-radius: 10px;
+  padding: 0.4rem 1.6rem;
+  transition: 0.3s;
+  margin-left: 1rem;
+}
+
+.primaireBtn:active {
+  transform: translateY(4px);
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

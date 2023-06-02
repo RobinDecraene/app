@@ -1,0 +1,31 @@
+.primaireBtn {
+  border: solid 1px #feb544;
+  background-color: #fee4b3;
+  border-radius: 10px;
+  padding: 0.4rem 1.6rem;
+  transition: 0.3s;
+}
+
+.secondaire {
+  margin-top: 1.5rem;
+  border: solid 1px #feb544;
+  border-radius: 20px;
+  padding: 0.4rem 1.6rem;
+  background-color: #fff;
+  color: #feb544;
+  transition: 0.3s;
+}
+
+.primaireBtn:active {
+  transform: translateY(4px);
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.secondaire:active {
+  transform: translateY(4px);
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

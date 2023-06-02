@@ -1,0 +1,133 @@
+.makelaar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.colom {
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  justify-content: space-between;
+}
+
+.makelaarBoven {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  justify-content: space-between;
+}
+
+.makelaarBovenSectie {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.makelaarOnder{
+  width: 85%;
+  float: left;
+}
+
+
+.pandenMakelaar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+
+.makelaarCards {
+  width: fit-content;
+  margin: 0 2rem 3rem 0;
+  border-radius: 10px;
+  box-shadow: 1px 2px 8px 1px #d9d9d9;
+
+}
+
+.makelaarCardsTekst {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.makelaarCardsBottom {
+  padding: 0.5rem;
+}
+
+.makelaarCardsBottom p {
+  margin: 0 0 0.5rem;
+}
+
+.makelaarCardsImg {
+  width: 20rem;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.makelaarCardsBed {
+  width: 1.5rem
+}
+
+.makelaarBtn {
+  display: flex;
+  flex-direction: column;
+}
+
+.makelaarForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin: 1rem;
+  padding: 2rem 0;
+  background-color: #fee4b3;
+  border: solid 1px #ffd686;
+  border-radius: 20px;
+  box-shadow: 1px 2px 8px 1px #d9d9d9;
+}
+
+.inputMakelaar {
+  border: solid 1px #feb544;
+  box-shadow: inset 1px 1px 4px 2px #d9d9d9;
+  height: 1.5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+.primaireBtn {
+  border: solid 1px #feb544;
+  background-color: #fee4b3;
+  border-radius: 10px;
+  padding: 0.4rem 1.6rem;
+  transition: 0.3s;
+}
+
+.secondaire {
+  margin-top: 1.5rem;
+  border: solid 1px #feb544;
+  border-radius: 20px;
+  padding: 0.4rem 1.6rem;
+  background-color: #fff;
+  color: #feb544;
+  transition: 0.3s;
+}
+
+.primaireBtn:active {
+  transform: translateY(4px);
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.secondaire:active {
+  transform: translateY(4px);
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

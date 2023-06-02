@@ -1,0 +1,52 @@
+.berichten{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.berichtArrow{
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  }
+  
+.berichtArrow img{
+  width: 2rem;
+  float: left;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.berichtenCards {
+  width: 85%;
+}
+
+.berichtenCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fee4b3;
+  padding: 0.5rem 1rem;
+  border: solid 1px #ffd686;
+  border-radius: 10px;
+  box-shadow: 1px 2px 8px 1px #d9d9d9;
+  margin-bottom: 3rem;
+}
+
+.berichtenCard a {
+  width: 100%;
+}
+
+.berichtenCardDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.berichtenCardImg {
+  width: 9rem;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
